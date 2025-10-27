@@ -1,0 +1,41 @@
+#import pandas and data set
+
+import pandas as pd
+import numpy as np
+dataset = 'D:\GIM\Course at GIM\Course Material\DPIQ Chapter 2\student_bucketing.csv'
+
+df = pd.read_csv(dataset, header=0)
+#to print first five rows
+df.head()
+
+#Creating five bins from markw of students
+df['bucket']=pd.cut(df['marks'],5,labels=['Poor','Below_average','Average','Above_Average','Excellent'])
+df.head(30)
+=================================
+
+#example 1 Binning
+
+import pandas as pd 
+import numpy as np 
+  
+  
+df= pd.DataFrame({'number': np.random.randint(1, 100, 10)}) 
+df['bins'] = pd.cut(x=df['number'], bins=[1, 20, 40, 60,  
+                                          80, 100]) 
+df.head()
+# We can check the frequency of each bin 
+df['bins'].unique()
+=====================================
+#example 2 Binning
+
+import pandas as pd 
+import numpy as np 
+  
+df = pd.DataFrame({'number': np.random.randint(1, 100, 10)}) 
+df['bins'] = pd.cut(x=df['number'], bins=[1, 20, 40, 60, 80, 100], 
+                    labels=['1 to 20', '21 to 40', '41 to 60', 
+                            '61 to 80', '81 to 100']) 
+df.head()
+
+# We can check the frequency of each bin 
+df['bins'].unique()

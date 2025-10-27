@@ -1,0 +1,233 @@
+Student_id,Age,Gender,Grade,Employed,Employed_flag,Grade_numeric,Age_group
+1,19,Male,1st Class,yes,1,1,Young Adult
+2,20,Female,2nd Class,no,0,2,Young Adult
+3,18,Male,1st Class,no,0,1,Teen
+4,21,Female,2nd Class,no,0,2,Adult
+5,19,Male,1st Class,no,0,1,Young Adult
+6,20,Male,2nd Class,yes,1,2,Young Adult
+7,19,Female,3rd Class,yes,1,3,Young Adult
+8,21,Male,3rd Class,yes,1,3,Adult
+9,22,Female,3rd Class,yes,1,3,Adult
+10,21,Male,1st Class,no,0,1,Adult
+11,20,Female,3rd Class,yes,1,3,Young Adult
+12,20,Male,1st Class,no,0,1,Young Adult
+13,19,Male,1st Class,yes,1,1,Young Adult
+14,20,Female,3rd Class,no,0,3,Young Adult
+15,19,Male,1st Class,yes,1,1,Young Adult
+16,19,Female,2nd Class,no,0,2,Young Adult
+17,20,Male,2nd Class,yes,1,2,Young Adult
+18,18,Female,3rd Class,no,0,3,Teen
+19,21,Male,2nd Class,yes,1,2,Adult
+20,19,Male,2nd Class,no,0,2,Young Adult
+21,20,Female,3rd Class,yes,1,3,Young Adult
+22,19,Male,2nd Class,no,0,2,Young Adult
+23,21,Female,2nd Class,yes,1,2,Adult
+24,22,Male,3rd Class,no,0,3,Adult
+25,21,Female,1st Class,no,0,1,Adult
+26,20,Male,2nd Class,no,0,2,Young Adult
+27,20,Male,3rd Class,no,0,3,Young Adult
+28,19,Female,1st Class,no,0,1,Young Adult
+29,20,Male,3rd Class,no,0,3,Young Adult
+30,19,Male,1st Class,yes,1,1,Young Adult
+31,20,Female,2nd Class,no,0,2,Young Adult
+32,18,Male,1st Class,no,0,1,Teen
+33,21,Female,2nd Class,no,0,2,Adult
+34,19,Male,1st Class,no,0,1,Young Adult
+35,20,Male,2nd Class,yes,1,2,Young Adult
+36,19,Female,3rd Class,yes,1,3,Young Adult
+37,21,Male,3rd Class,yes,1,3,Adult
+38,22,Female,3rd Class,yes,1,3,Adult
+39,21,Male,1st Class,no,0,1,Adult
+40,20,Female,3rd Class,yes,1,3,Young Adult
+41,20,Male,1st Class,no,0,1,Young Adult
+42,19,Male,1st Class,yes,1,1,Young Adult
+43,20,Female,3rd Class,no,0,3,Young Adult
+44,19,Male,1st Class,yes,1,1,Young Adult
+45,19,Female,2nd Class,no,0,2,Young Adult
+46,20,Male,2nd Class,yes,1,2,Young Adult
+47,18,Female,3rd Class,no,0,3,Teen
+48,21,Male,2nd Class,yes,1,2,Adult
+49,19,Male,2nd Class,no,0,2,Young Adult
+50,20,Female,3rd Class,yes,1,3,Young Adult
+51,19,Male,2nd Class,no,0,2,Young Adult
+52,21,Female,2nd Class,yes,1,2,Adult
+53,22,Male,3rd Class,no,0,3,Adult
+54,21,Female,1st Class,no,0,1,Adult
+55,20,Male,2nd Class,no,0,2,Young Adult
+56,20,Male,3rd Class,no,0,3,Young Adult
+57,19,Female,1st Class,no,0,1,Young Adult
+58,20,Male,3rd Class,no,0,3,Young Adult
+59,19,Male,1st Class,yes,1,1,Young Adult
+60,20,Female,2nd Class,no,0,2,Young Adult
+61,18,Male,1st Class,no,0,1,Teen
+62,21,Female,2nd Class,no,0,2,Adult
+63,19,Male,1st Class,no,0,1,Young Adult
+64,20,Male,2nd Class,yes,1,2,Young Adult
+65,19,Female,3rd Class,yes,1,3,Young Adult
+66,21,Male,3rd Class,yes,1,3,Adult
+67,22,Female,3rd Class,yes,1,3,Adult
+68,21,Male,1st Class,no,0,1,Adult
+69,20,Female,3rd Class,yes,1,3,Young Adult
+70,20,Male,1st Class,no,0,1,Young Adult
+71,19,Male,1st Class,yes,1,1,Young Adult
+72,20,Female,3rd Class,no,0,3,Young Adult
+73,19,Male,1st Class,yes,1,1,Young Adult
+74,19,Female,2nd Class,no,0,2,Young Adult
+75,20,Male,2nd Class,yes,1,2,Young Adult
+76,18,Female,3rd Class,no,0,3,Teen
+77,21,Male,2nd Class,yes,1,2,Adult
+78,19,Male,2nd Class,no,0,2,Young Adult
+79,20,Female,3rd Class,yes,1,3,Young Adult
+80,19,Male,2nd Class,no,0,2,Young Adult
+81,21,Female,2nd Class,yes,1,2,Adult
+82,22,Male,3rd Class,no,0,3,Adult
+83,21,Female,1st Class,no,0,1,Adult
+84,20,Male,2nd Class,no,0,2,Young Adult
+85,20,Male,3rd Class,no,0,3,Young Adult
+86,19,Female,1st Class,no,0,1,Young Adult
+87,20,Male,3rd Class,no,0,3,Young Adult
+88,19,Male,1st Class,yes,1,1,Young Adult
+89,20,Female,2nd Class,no,0,2,Young Adult
+90,18,Male,1st Class,no,0,1,Teen
+91,21,Female,2nd Class,no,0,2,Adult
+92,19,Male,1st Class,no,0,1,Young Adult
+93,20,Male,2nd Class,yes,1,2,Young Adult
+94,19,Female,3rd Class,yes,1,3,Young Adult
+95,21,Male,3rd Class,yes,1,3,Adult
+96,22,Female,3rd Class,yes,1,3,Adult
+97,21,Male,1st Class,no,0,1,Adult
+98,20,Female,3rd Class,yes,1,3,Young Adult
+99,20,Male,1st Class,no,0,1,Young Adult
+100,19,Male,1st Class,yes,1,1,Young Adult
+101,20,Female,3rd Class,no,0,3,Young Adult
+102,19,Male,1st Class,yes,1,1,Young Adult
+103,19,Female,2nd Class,no,0,2,Young Adult
+104,20,Male,2nd Class,yes,1,2,Young Adult
+105,18,Female,3rd Class,no,0,3,Teen
+106,21,Male,2nd Class,yes,1,2,Adult
+107,19,Male,2nd Class,no,0,2,Young Adult
+108,20,Female,3rd Class,yes,1,3,Young Adult
+109,19,Male,2nd Class,no,0,2,Young Adult
+110,21,Female,2nd Class,yes,1,2,Adult
+111,22,Male,3rd Class,no,0,3,Adult
+112,21,Female,1st Class,no,0,1,Adult
+113,20,Male,2nd Class,no,0,2,Young Adult
+114,20,Male,3rd Class,no,0,3,Young Adult
+115,19,Female,1st Class,no,0,1,Young Adult
+116,20,Male,3rd Class,no,0,3,Young Adult
+117,19,Male,1st Class,yes,1,1,Young Adult
+118,20,Female,2nd Class,no,0,2,Young Adult
+119,18,Male,1st Class,no,0,1,Teen
+120,21,Female,2nd Class,no,0,2,Adult
+121,19,Male,1st Class,no,0,1,Young Adult
+122,20,Male,2nd Class,yes,1,2,Young Adult
+123,19,Female,3rd Class,yes,1,3,Young Adult
+124,21,Male,3rd Class,yes,1,3,Adult
+125,22,Female,3rd Class,yes,1,3,Adult
+126,21,Male,1st Class,no,0,1,Adult
+127,20,Female,3rd Class,yes,1,3,Young Adult
+128,20,Male,1st Class,no,0,1,Young Adult
+129,19,Male,1st Class,yes,1,1,Young Adult
+130,20,Female,3rd Class,no,0,3,Young Adult
+131,19,Male,1st Class,yes,1,1,Young Adult
+132,19,Female,2nd Class,no,0,2,Young Adult
+133,20,Male,2nd Class,yes,1,2,Young Adult
+134,18,Female,3rd Class,no,0,3,Teen
+135,21,Male,2nd Class,yes,1,2,Adult
+136,19,Male,2nd Class,no,0,2,Young Adult
+137,20,Female,3rd Class,yes,1,3,Young Adult
+138,19,Male,2nd Class,no,0,2,Young Adult
+139,21,Female,2nd Class,yes,1,2,Adult
+140,22,Male,3rd Class,no,0,3,Adult
+141,21,Female,1st Class,no,0,1,Adult
+142,20,Male,2nd Class,no,0,2,Young Adult
+143,20,Male,3rd Class,no,0,3,Young Adult
+144,19,Female,1st Class,no,0,1,Young Adult
+145,20,Male,3rd Class,no,0,3,Young Adult
+146,19,Male,1st Class,yes,1,1,Young Adult
+147,20,Female,2nd Class,no,0,2,Young Adult
+148,18,Male,1st Class,no,0,1,Teen
+149,21,Female,2nd Class,no,0,2,Adult
+150,19,Male,1st Class,no,0,1,Young Adult
+151,20,Male,2nd Class,yes,1,2,Young Adult
+152,19,Female,3rd Class,yes,1,3,Young Adult
+153,21,Male,3rd Class,yes,1,3,Adult
+154,22,Female,3rd Class,yes,1,3,Adult
+155,21,Male,1st Class,no,0,1,Adult
+156,20,Female,3rd Class,yes,1,3,Young Adult
+157,20,Male,1st Class,no,0,1,Young Adult
+158,19,Male,1st Class,yes,1,1,Young Adult
+159,20,Female,3rd Class,no,0,3,Young Adult
+160,19,Male,1st Class,yes,1,1,Young Adult
+161,19,Female,2nd Class,no,0,2,Young Adult
+162,20,Male,2nd Class,yes,1,2,Young Adult
+163,18,Female,3rd Class,no,0,3,Teen
+164,21,Male,2nd Class,yes,1,2,Adult
+165,19,Male,2nd Class,no,0,2,Young Adult
+166,20,Female,3rd Class,yes,1,3,Young Adult
+167,19,Male,2nd Class,no,0,2,Young Adult
+168,21,Female,2nd Class,yes,1,2,Adult
+169,22,Male,3rd Class,no,0,3,Adult
+170,21,Female,1st Class,no,0,1,Adult
+171,20,Male,2nd Class,no,0,2,Young Adult
+172,20,Male,3rd Class,no,0,3,Young Adult
+173,19,Female,1st Class,no,0,1,Young Adult
+174,20,Male,3rd Class,no,0,3,Young Adult
+175,19,Male,1st Class,yes,1,1,Young Adult
+176,20,Female,2nd Class,no,0,2,Young Adult
+177,18,Male,1st Class,no,0,1,Teen
+178,21,Female,2nd Class,no,0,2,Adult
+179,19,Male,1st Class,no,0,1,Young Adult
+180,20,Male,2nd Class,yes,1,2,Young Adult
+181,19,Female,3rd Class,yes,1,3,Young Adult
+182,21,Male,3rd Class,yes,1,3,Adult
+183,22,Female,3rd Class,yes,1,3,Adult
+184,21,Male,1st Class,no,0,1,Adult
+185,20,Female,3rd Class,yes,1,3,Young Adult
+186,20,Male,1st Class,no,0,1,Young Adult
+187,19,Male,1st Class,yes,1,1,Young Adult
+188,20,Female,3rd Class,no,0,3,Young Adult
+189,19,Male,1st Class,yes,1,1,Young Adult
+190,19,Female,2nd Class,no,0,2,Young Adult
+191,20,Male,2nd Class,yes,1,2,Young Adult
+192,18,Female,3rd Class,no,0,3,Teen
+193,21,Male,2nd Class,yes,1,2,Adult
+194,19,Male,2nd Class,no,0,2,Young Adult
+195,20,Female,3rd Class,yes,1,3,Young Adult
+196,19,Male,2nd Class,no,0,2,Young Adult
+197,21,Female,2nd Class,yes,1,2,Adult
+198,22,Male,3rd Class,no,0,3,Adult
+199,21,Female,1st Class,no,0,1,Adult
+200,20,Male,2nd Class,no,0,2,Young Adult
+201,20,Male,3rd Class,no,0,3,Young Adult
+202,19,Female,1st Class,no,0,1,Young Adult
+203,20,Male,3rd Class,no,0,3,Young Adult
+204,19,Male,1st Class,yes,1,1,Young Adult
+205,20,Female,2nd Class,no,0,2,Young Adult
+206,18,Male,1st Class,no,0,1,Teen
+207,21,Female,2nd Class,no,0,2,Adult
+208,19,Male,1st Class,no,0,1,Young Adult
+209,20,Male,2nd Class,yes,1,2,Young Adult
+210,19,Female,3rd Class,yes,1,3,Young Adult
+211,21,Male,3rd Class,yes,1,3,Adult
+212,22,Female,3rd Class,yes,1,3,Adult
+213,21,Male,1st Class,no,0,1,Adult
+214,20,Female,3rd Class,yes,1,3,Young Adult
+215,20,Male,1st Class,no,0,1,Young Adult
+216,19,Male,1st Class,yes,1,1,Young Adult
+217,20,Female,3rd Class,no,0,3,Young Adult
+218,19,Male,1st Class,yes,1,1,Young Adult
+219,19,Female,2nd Class,no,0,2,Young Adult
+220,20,Male,2nd Class,yes,1,2,Young Adult
+221,18,Female,3rd Class,no,0,3,Teen
+222,21,Male,2nd Class,yes,1,2,Adult
+223,19,Male,2nd Class,no,0,2,Young Adult
+224,20,Female,3rd Class,yes,1,3,Young Adult
+225,19,Male,2nd Class,no,0,2,Young Adult
+226,21,Female,2nd Class,yes,1,2,Adult
+227,22,Male,3rd Class,no,0,3,Adult
+228,21,Female,1st Class,no,0,1,Adult
+229,20,Male,2nd Class,no,0,2,Young Adult
+230,20,Male,3rd Class,yes,1,3,Young Adult
+231,19,Female,1st Class,yes,1,1,Young Adult
+232,20,Male,3rd Class,yes,1,3,Young Adult
