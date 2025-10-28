@@ -1,0 +1,11 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+*/.DS_Store
+
+# Temporary files
+temp.txt
+*.tmp
