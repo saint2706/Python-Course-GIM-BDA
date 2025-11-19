@@ -4,41 +4,72 @@ This repository contains learning materials, exercises, and examples for a Pytho
 
 ## Repository Structure
 
-### 📚 Exercises
-Contains practice notebooks and exercises covering Python fundamentals:
-- **Basic Concepts**: Lists, dictionaries, tuples, sets
-- **Control Flow**: Conditionals, loops, comprehensions
-- **Functions**: Lambda functions, map, filter operations
-- **Previous Year Questions (pyq.ipynb)**: Practice questions from previous exams
-- **solved/**: Solutions to class problems and exercises
+### 📚 Exercises (`exercises/`)
+Practice notebooks and exercises covering Python fundamentals, organized with sequential numbering:
+- `01-basics-list-dict-questions.ipynb` - Basic data structures: Lists, dictionaries, tuples, sets
+- `02-nested-tuple-set-questions.ipynb` - Advanced nested data structures
+- `03-control-flow-questions.ipynb` - Conditionals and loops
+- `03-list-comprehension-questions.ipynb` - List comprehensions
+- `04-list-lambda-map-filter-questions.ipynb` - Lambda functions, map, filter operations
+- `05-python-functions-questions.ipynb` - Function definitions and usage
+- `06-previous-year-questions.ipynb` - Practice questions from previous exams
+- `07-08-sf-salaries-exercise.ipynb` - San Francisco salaries exercise
+- `penguins-eda-questions-valid.ipynb` - Exploratory Data Analysis exercise
+- **solved/**: Solutions to class problems and exercises with standardized naming
 
-### 📝 Assignments
+### 📝 Assignments (`assignments/`)
 Student assignment submissions organized by assignment number:
 - **assignment-1/**: First assignment submissions from different students
 
-### 🔧 Data Processing
+### 🐼 Pandas Basics (`pandas-basics/`)
+Introduction to Pandas and fundamental operations, organized sequentially:
+- `01-introduction-to-pandas.ipynb` - Getting started with Pandas
+- `02-operations.ipynb` - Basic operations and manipulations
+- `03-groupby.ipynb` - Grouping and aggregation operations
+- `04-data-input-output.ipynb` - Reading and writing data files
+- `05-merging-joining-concatenating.ipynb` - Combining DataFrames
+
+### 🔧 Data Processing (`data-processing/`)
 Notebooks and examples for data manipulation and cleaning:
-- **Handling Missing Values**: Techniques for dealing with missing data
-- **Subsetting in Pandas**: Data filtering and selection
-- **Duplicates**: Detection and handling of duplicate records
-- **Outliers**: Detection and treatment of outlier values
-- **Missing Value Regression**: Advanced imputation techniques
-- **import-export/**: Data import/export operations with various formats (CSV, Excel, text)
+- **subsetting-in-pandas.ipynb**: Data filtering and selection techniques
+- **duplicates.ipynb**: Detection and handling of duplicate records
+- **outlier-detection-treatment.ipynb**: Outlier detection and treatment
+- **missing-values.ipynb**: Basic missing value handling
+- **missing-value-regression.ipynb**: Advanced imputation techniques
+- **missing-values/** subdirectory:
+  - `handling-missing-values.ipynb` - Comprehensive missing data techniques
+  - `missing-data.ipynb` - Missing data patterns and strategies
+- **import-export/** subdirectory: Data import/export operations with various formats (CSV, Excel, text)
 
-### ⚙️ Feature Engineering
+### ⚙️ Feature Engineering (`feature-engineering/`)
 Advanced data transformation and feature engineering techniques:
-- **Categorical Encoding**: Label encoding and one-hot encoding techniques
-- **Binning**: Data discretization and bucketing strategies
-- **Data Transformation**: Normalization, standardization, logarithmic transforms
-- **examples/**: Practical examples with sales and student datasets
-  - Feature extraction
-  - Feature splitting
-  - Label encoding workflows
+- `categorical-encoding-techniques.ipynb` - Label encoding and one-hot encoding
+- `label-onehot-encoding.ipynb` - Encoding categorical variables
+- `binning.ipynb` - Data discretization and bucketing strategies
+- `data-transform.ipynb` - Normalization, standardization, logarithmic transforms
+- `data-descritisation-bucketing.txt` - Notes on discretization techniques
+- **examples/** subdirectory: Practical examples with sales and student datasets
+  - Feature extraction workflows
+  - Feature splitting techniques
+  - Label encoding demonstrations
 
-### 📖 Resources
+### 📊 Statistics (`statistics/`)
+Statistical analysis and linear regression:
+- `bivariate-and-transformations.ipynb` - Bivariate analysis and data transformations
+- `linear-assumptions-violations.ipynb` - Violations of linear regression assumptions
+- `linear-regression-assumptions-fixes-mpg.ipynb` - Fixing assumption violations with MPG dataset
+- `step-by-step-assumptions-linear-regression.ipynb` - Step-by-step guide to regression assumptions
+
+### 📖 Resources (`resources/`)
 Course materials and reference files:
-- **Python_Guide - Session 1,2 and 3.pdf**: Course guide documentation
-- **customer_data.csv**: Sample dataset for exercises
+- `Python_Guide - Session 1,2 and 3.pdf` - Course guide documentation
+- `customer_data.csv` - Sample dataset for exercises
+
+### 📄 Documentation (`documentation/`)
+Additional course documentation and references:
+- `linear-regression-session-9-10.pdf` - Linear regression lecture materials
+- `linear-regression-assumptions-fixes.docx` - Guide to fixing regression assumptions
+- `treating-missing-values.pdf` - Reference guide for missing value treatment
 
 ## Getting Started
 
