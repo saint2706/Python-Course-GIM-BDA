@@ -1,0 +1,51 @@
+Cust_ID,Age,Income,Profession,Marital_Status,Vehicle_Type
+C001,24,350000,Student,Single,Bike
+C002,28,520000,Software Engineer,Married,Hatchback
+C003,35,780000,Doctor,Married,SUV
+C004,42,1250000,Business,Married,Sedan
+C005,31,610000,Teacher,Single,Scooter
+C006,45,980000,Banker,Married,Sedan
+C007,29,430000,Sales Executive,Single,Bike
+C008,38,890000,Professor,Married,SUV
+C009,50,1450000,Business,Married,Luxury Car
+C010,27,470000,Accountant,Single,Hatchback
+C011,33,720000,Engineer,Married,Sedan
+C012,41,860000,Government Employee,Married,SUV
+C013,26,390000,Nurse,Single,Scooter
+C014,36,810000,Lawyer,Married,Sedan
+C015,48,1350000,Entrepreneur,Married,Luxury Car
+C016,23,320000,Student,Single,Bike
+C017,39,920000,IT Consultant,Married,SUV
+C018,44,1120000,Business,Married,Sedan
+C019,30,560000,HR Executive,Married,Hatchback
+C020,34,690000,Marketing Manager,Single,Sedan
+C021,52,1520000,CEO,Married,Luxury Car
+C022,37,770000,Teacher,Married,Sedan
+C023,25,410000,Graphic Designer,Single,Scooter
+C024,40,990000,Data Scientist,Married,SUV
+C025,46,1280000,Chartered Accountant,Married,Sedan
+C026,32,630000,Pharmacist,Married,Hatchback
+C027,29,510000,Civil Engineer,Single,Bike
+C028,43,1090000,Professor,Married,SUV
+C029,27,450000,Sales Executive,Single,Scooter
+C030,35,830000,Software Engineer,Married,Sedan
+C031,49,1410000,Business,Married,Luxury Car
+C032,38,870000,Lawyer,Married,SUV
+C033,24,360000,Student,Single,Bike
+C034,31,600000,Nurse,Married,Hatchback
+C035,47,1180000,Doctor,Married,SUV
+C036,33,680000,Teacher,Single,Scooter
+C037,28,540000,Accountant,Married,Hatchback
+C038,42,1040000,Engineer,Married,Sedan
+C039,36,790000,Data Analyst,Married,SUV
+C040,26,430000,Marketing Executive,Single,Bike
+C041,53,1650000,Entrepreneur,Married,Luxury Car
+C042,39,910000,Government Employee,Married,SUV
+C043,34,700000,IT Consultant,Married,Sedan
+C044,30,580000,HR Executive,Single,Hatchback
+C045,45,1220000,Business,Married,SUV
+C046,27,490000,Teacher,Single,Scooter
+C047,37,840000,Software Engineer,Married,Sedan
+C048,41,970000,Banker,Married,SUV
+C049,29,520000,Pharmacist,Single,Hatchback
+C050,51,1480000,CEO,Married,Luxury Car

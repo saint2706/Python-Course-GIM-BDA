@@ -1,0 +1,41 @@
+﻿Student_ID,Student_Name,Age,Gender,State,City,Program,Year_of_Study,Residence_Type,Email,Phone_Number
+STU001,Aarav Sharma,20,Male,Uttar Pradesh,Lucknow,BBA,2,Hostel,aarav.sharma@example.com,9876501001
+STU002,Ananya Iyer,21,Female,Tamil Nadu,Chennai,BCom,3,Day Scholar,ananya.iyer@example.com,9876501002
+STU003,Rohan Desai,19,Male,Maharashtra,Pune,BSc Data Science,1,Hostel,rohan.desai@example.com,9876501003
+STU004,Meera Nair,22,Female,Kerala,Kochi,MBA,1,Hostel,meera.nair@example.com,9876501004
+STU005,Arjun Reddy,20,Male,Telangana,Hyderabad,BTech,2,Day Scholar,arjun.reddy@example.com,9876501005
+STU006,Sneha Patil,21,Female,Maharashtra,Nashik,BBA,3,Hostel,sneha.patil@example.com,9876501006
+STU007,Vikram Singh,23,Male,Rajasthan,Jaipur,MBA,2,Hostel,vikram.singh@example.com,9876501007
+STU008,Priya Das,19,Female,West Bengal,Kolkata,BCom,1,Day Scholar,priya.das@example.com,9876501008
+STU009,Karthik Rao,20,Male,Karnataka,Bengaluru,BSc Data Science,2,Hostel,karthik.rao@example.com,9876501009
+STU010,Neha Gupta,22,Female,Delhi,New Delhi,MBA,1,Day Scholar,neha.gupta@example.com,9876501010
+STU011,Rahul Verma,21,Male,Madhya Pradesh,Indore,BBA,3,Hostel,rahul.verma@example.com,9876501011
+STU012,Aditi Joshi,20,Female,Gujarat,Ahmedabad,BTech,2,Day Scholar,aditi.joshi@example.com,9876501012
+STU013,Sanjay Kumar,19,Male,Bihar,Patna,BCom,1,Hostel,sanjay.kumar@example.com,9876501013
+STU014,Pooja Kulkarni,21,Female,Maharashtra,Nagpur,BSc Data Science,3,Hostel,pooja.kulkarni@example.com,9876501014
+STU015,Nikhil Menon,22,Male,Kerala,Thiruvananthapuram,MBA,2,Day Scholar,nikhil.menon@example.com,9876501015
+STU016,Ishita Bose,20,Female,West Bengal,Siliguri,BBA,2,Hostel,ishita.bose@example.com,9876501016
+STU017,Manish Yadav,23,Male,Haryana,Gurugram,MBA,2,Day Scholar,manish.yadav@example.com,9876501017
+STU018,Divya Shetty,19,Female,Karnataka,Mangaluru,BCom,1,Hostel,divya.shetty@example.com,9876501018
+STU019,Aditya Mishra,21,Male,Odisha,Bhubaneswar,BTech,3,Hostel,aditya.mishra@example.com,9876501019
+STU020,Kavya Pillai,20,Female,Kerala,Kozhikode,BSc Data Science,2,Day Scholar,kavya.pillai@example.com,9876501020
+STU021,Aarav Sharma,22,Male,Punjab,Ludhiana,MBA,1,Hostel,aarav.sharma2@example.com,9876501021
+STU022,Tanvi Shah,19,Female,Gujarat,Surat,BBA,1,Day Scholar,tanvi.shah@example.com,9876501022
+STU023,Mohit Saini,20,Male,Uttarakhand,Dehradun,BCom,2,Hostel,mohit.saini@example.com,9876501023
+STU024,Ritika Chawla,21,Female,Punjab,Amritsar,BTech,3,Hostel,ritika.chawla@example.com,9876501024
+STU025,Harsh Vardhan,22,Male,Jharkhand,Ranchi,MBA,1,Day Scholar,harsh.vardhan@example.com,9876501025
+STU026,Simran Kaur,20,Female,Punjab,Chandigarh,BSc Data Science,2,Hostel,simran.kaur@example.com,9876501026
+STU027,Abhishek Das,19,Male,Assam,Guwahati,BBA,1,Hostel,abhishek.das@example.com,9876501027
+STU028,Lakshmi Rao,21,Female,Andhra Pradesh,Vijayawada,BCom,3,Day Scholar,lakshmi.rao@example.com,9876501028
+STU029,Yash Thakur,20,Male,Himachal Pradesh,Shimla,BTech,2,Hostel,yash.thakur@example.com,9876501029
+STU030,Farah Khan,22,Female,Jammu and Kashmir,Srinagar,MBA,1,Hostel,farah.khan@example.com,9876501030
+STU031,Ananya Iyer,20,Female,Karnataka,Mysuru,BBA,2,Hostel,ananya.iyer2@example.com,9876501031
+STU032,Suresh Naidu,21,Male,Andhra Pradesh,Visakhapatnam,BSc Data Science,3,Day Scholar,suresh.naidu@example.com,9876501005
+STU033,Nandini Roy,19,Female,Chhattisgarh,Raipur,BCom,1,Hostel,priya.das@example.com,9876501033
+STU034,Aman Tripathi,22,Male,Uttar Pradesh,Varanasi,MBA,1,Day Scholar,aman.tripathi@example.com,9876501034
+STU034,Aman Tripathi,22,Male,Uttar Pradesh,Prayagraj,MBA,1,Hostel,aman.tripathi2@example.com,9876501035
+STU006,Sneha Patil,21,Female,Maharashtra,Nashik,BBA,3,Hostel,sneha.patil@example.com,9876501006
+STU012,Aditi Joshi,20,Female,Gujarat,Ahmedabad,BTech,2,Day Scholar,aditi.joshi@example.com,9876501012
+STU018,Divya Shetty,19,Female,Karnataka,Mangaluru,BCom,1,Hostel,divya.shetty@example.com,9876501018
+STU024,Ritika Chawla,21,Female,Punjab,Amritsar,BTech,3,Hostel,ritika.chawla@example.com,9876501024
+STU029,Yash Thakur,20,Male,Himachal Pradesh,Shimla,BTech,2,Hostel,yash.thakur@example.com,9876501029

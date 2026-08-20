@@ -1,0 +1,41 @@
+#importing the libraries
+
+import numpy as np
+import pandas as pd
+import scipy.stats
+import math
+import statistics
+
+# Read csv file into a pandas dataframe and check first 10 lines
+property_data="D:\GIM\Course at GIM\Course Material\DPIQ Chapter 1\Session 2\employees.csv"
+df = pd.read_csv(property_data, header = 0)
+df.head(10)
+
+#removing all duplicates (only unique value remains)
+
+# sorting by first name 
+df.sort_values("First Name", inplace = True) 
+# dropping ALL duplicte values 
+df.drop_duplicates(subset ="First Name",keep = False, inplace = True) 
+  
+# displaying data 
+df.shape
+
+==========================
+#if compete row is duplicate, then remove
+# Read csv file into a pandas dataframe and check first 10 lines
+property_data="D:\GIM\Course at GIM\Course Material\DPIQ Chapter 1\Session 2\employees1.csv"
+df = pd.read_csv(property_data, header = 0)
+df.head(10)
+
+df.shape
+# sorting by first name 
+df.sort_values("First Name", inplace=True) 
+  
+# dropping duplicate rows
+df.drop_duplicates(keep=False,inplace=True) 
+df.shape
+
+# keeping the first row of duplicate set and remove ramaining. cam also use 'last'
+df.drop_duplicates(subset ="First Name", 
+                     keep = 'first', inplace = True)
