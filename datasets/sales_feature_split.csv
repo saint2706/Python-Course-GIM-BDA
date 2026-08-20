@@ -1,0 +1,20 @@
+Invoice ID,Branch,City(nature),Customer type,Gender,Product line,Unit price,Quantity,Profit,Total,Time,Payment,cogs,Total ,gross income,Rating,date_visited,City,City_Type,visit_day,visit_month,visit_year
+750-67-8428,A,Yangon(Local),Member,Female,Health and beauty,74.69,7.0,26.1415,548.9715,13:08,Ewallet,522.83,4.761904762,26.1415,9.1,2016-10-02,Yangon,Local,2,10,2016
+226-31-3081,C,Naypyitaw(Local),Normal,Female,Electronic accessories,15.28,5.0,3.82,80.22,10:29,Cash,76.4,4.761904762,3.82,9.6,2018-08-26,Naypyitaw,Local,26,8,2018
+&&&,A,Yangon(Local),Normal,Male,Home and lifestyle,46.33,6.0,16.2155,340.5255,13:23,Credit card,324.31,4.761904762,16.2155,7.4,2020-09-14,Yangon,Local,14,9,2020
+123-19-1176,A,Yangon(Local),Member,Male,Health and beauty,58.22,8.0,23.288,489.048,20:33,Ewallet,465.76,4.761904762,23.288,8.4,2022-10-10,Yangon,Local,10,10,2022
+373-73-7910,A,Yangon(Local),Normal,,Sports and travel,&&&,7.0,30.2085,634.3785,10:37,Ewallet,604.17,4.761904762,30.2085,5.3,2019-09-28,Yangon,Local,28,9,2019
+699-14-3026,C,Naypyitaw(Local),Normal,Male,Electronic accessories,85.39,7.0,29.8865,627.6165,18:30,Ewallet,597.73,4.761904762,29.8865,4.1,2019-06-03,Naypyitaw,Local,3,6,2019
+355-53-5943,A,Yangon(Local),Member,Female,Electronic accessories,68.84,,20.652,433.692,14:36,Ewallet,413.04,4.761904762,20.652,5.8,2015-06-05,Yangon,Local,5,6,2015
+$$$,C,Naypyitaw(Local),Normal,Female,Home and lifestyle,73.56,10.0,36.78,772.38,11:38,Ewallet,735.6,4.761904762,36.78,8.0,2016-03-17,Naypyitaw,Local,17,3,2016
+665-32-9167,A,Yangon(Local),Member,Female,Health and beauty,36.26,2.0,3.626,2356.23,17:15,Credit card,72.52,4.761904762,3.626,7.2,2018-02-21,Yangon,Local,21,2,2018
+692-92-5582,B,Mandalay(urban),Member,Female,Food and beverages,54.84,6.0,8.226,172.746,13:27,Credit card,164.52,4.761904762,,5.9,2012-10-04,Mandalay,urban,4,10,2012
+351-62-0822,B,Mandalay(urban),Member,,Fashion accessories,13.25,4.0,2.896,60.816,18:07,Ewallet,57.92,4.761904762,2.896,4.5,2020-01-29,Mandalay,urban,29,1,2020
+529-56-3974,B,Mandalay(urban),Member,Male,Electronic accessories,25.51,6.0,5.102,107.142,17:03,Cash,102.04,4.761904762,5.102,6.8,2019-06-08,Mandalay,urban,8,6,2019
+365-64-0515,A,Naypyitaw(Local),Normal,Female,Electronic accessories,46.95,5.0,11.7375,246.4875,10:25,Ewallet,234.75,4.761904762,11.7375,7.1,2011-05-21,Naypyitaw,Local,21,5,2011
+252-56-2699,A,Yangon(Local),Normal,Male,Food and beverages,21.25,10.0,21.595,453.495,16:48,Ewallet,431.9,4.761904762,21.595,8.2,2014-10-12,Yangon,Local,12,10,2014
+%%%,A,Yangon(Local),Normal,Female,Health and beauty,71.38,10.0,35.69,8975.36,19:21,Credit card,713.8,4.761904762,35.69,5.7,2016-11-11,Yangon,Local,11,11,2016
+299-46-1805,B,Mandalay(urban),Member,Female,Sports and travel,93.72,6.0,28.116,590.436,16:19,Cash,562.32,4.761904762,28.116,4.5,2014-03-19,Mandalay,urban,19,3,2014
+656-95-9349,A,Yangon(Local),Member,Female,Health and beauty,68.93,,24.1255,506.6355,11:03,Credit card,482.51,4.761904762,24.1255,4.6,2018-01-11,Yangon,Local,11,1,2018
+***,A,Yangon(Local),Normal,Male,Sports and travel,72.61,6.0,21.783,457.443,10:39,Credit card,435.66,4.761904762,21.783,6.9,2015-07-08,Yangon,Local,8,7,2015
+329-62-1586,A,Yangon(Local),Normal,Male,Food and beverages,54.67,3.0,8.2005,172.2105,18:00,Credit card,164.01,4.761904762,8.2005,8.6,2014-06-03,Yangon,Local,3,6,2014
