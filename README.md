@@ -49,6 +49,7 @@ Advanced feature engineering workflows:
 - `03_encoding_masterclass.ipynb` - Encoding masterclass
 - `04_sales_case_study_full_pipeline.ipynb` - Sales dataset full pipeline case study
 - `05_student_case_study_full_pipeline.ipynb` - Student dataset full pipeline case study
+- `06_practical_feature_engineering_case_study.ipynb` - Missing values, encoding, scaling, date/time and geo features on real loan-default and delivery-logistics datasets
 
 ### 6️⃣ Statistics and Regression (`06_Statistics_and_Regression/`)
 Statistical analysis and linear regression:
