@@ -9,3 +9,6 @@
 # Temporary files
 temp.txt
 *.tmp
+
+# PyCaret experiment logs
+logs.log
