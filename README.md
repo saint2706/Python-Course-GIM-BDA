@@ -69,6 +69,7 @@ End-to-end applied case studies:
 - `01_physician_loyalty_analysis.ipynb` - Physician loyalty analysis
 - `02_penguins_eda_solved.ipynb` - Penguins exploratory data analysis, solved
 - `03_assignment_1_worked_solution.ipynb` - Worked solution for assignment 1
+- `04_insurance_policy_renewal_automl_pycaret.ipynb` - AutoML data preparation case study: human-vs-AutoML data cleaning on a dirty insurance dataset, then a PyCaret classification pipeline to predict policy renewal
 
 ### 📊 Datasets (`datasets/`)
 All datasets used across the notebooks above, kept in one place for easy reference (CSV, Excel, and text files).
@@ -79,6 +80,8 @@ Supplementary course materials:
 - `linear-regression-session-9-10.pdf` - Linear regression lecture materials
 - `linear-regression-assumptions-fixes.docx` - Guide to fixing regression assumptions
 - `treating-missing-values.pdf` - Reference guide for missing value treatment
+- `automl-data-preparation-case-finserve.docx` - "The 94% Accuracy Trap" case study on AutoML data preparation and model trust
+- `automl-pycaret-student-task.pptx` - Student task brief for the PyCaret AutoML data preparation case study
 
 ## Getting Started
 
@@ -94,6 +97,7 @@ Supplementary course materials:
 - pandas
 - numpy
 - scikit-learn (for some advanced examples)
+- pycaret (optional, only for the AutoML case study in `08_Case_Studies/04_insurance_policy_renewal_automl_pycaret.ipynb`)
 
 ## Course Topics Covered
 
