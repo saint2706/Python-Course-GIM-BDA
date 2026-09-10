@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>House Price Predictor</title>
+
+    <style>
+
+        /* -----------------------------------------
+           General page styling
+        ----------------------------------------- */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #eef2ff,
+                    #f8fafc
+                );
+
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: #1e293b;
+        }
+
+
+        /* -----------------------------------------
+           Main container
+        ----------------------------------------- */
+
+        .container {
+            width: 90%;
+            max-width: 550px;
+
+            background: white;
+
+            padding: 35px;
+
+            border-radius: 18px;
+
+            box-shadow:
+                0 15px 40px
+                rgba(0, 0, 0, 0.12);
+        }
+
+
+        /* -----------------------------------------
+           Heading
+        ----------------------------------------- */
+
+        h1 {
+            margin-top: 0;
+
+            text-align: center;
+
+            color: #1e3a8a;
+
+            font-size: 30px;
+        }
+
+        .description {
+            text-align: center;
+
+            color: #64748b;
+
+            margin-bottom: 30px;
+
+            line-height: 1.5;
+        }
+
+
+        /* -----------------------------------------
+           Form
+        ----------------------------------------- */
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+
+            font-weight: bold;
+
+            margin-bottom: 7px;
+
+            color: #334155;
+        }
+
+        input {
+            width: 100%;
+
+            padding: 13px;
+
+            border: 1px solid #cbd5e1;
+
+            border-radius: 8px;
+
+            font-size: 16px;
+
+            outline: none;
+
+            transition: 0.2s;
+        }
+
+        input:focus {
+            border-color: #2563eb;
+
+            box-shadow:
+                0 0 0 3px
+                rgba(37, 99, 235, 0.12);
+        }
+
+
+        /* -----------------------------------------
+           Predict button
+        ----------------------------------------- */
+
+        button {
+            width: 100%;
+
+            padding: 14px;
+
+            margin-top: 10px;
+
+            background: #2563eb;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 8px;
+
+            font-size: 17px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+
+            transition: 0.2s;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        button:disabled {
+            background: #94a3b8;
+
+            cursor: not-allowed;
+        }
+
+
+        /* -----------------------------------------
+           Result
+        ----------------------------------------- */
+
+        .result {
+            display: none;
+
+            margin-top: 25px;
+
+            padding: 20px;
+
+            background: #ecfdf5;
+
+            border: 1px solid #86efac;
+
+            border-radius: 10px;
+
+            text-align: center;
+        }
+
+        .result-title {
+            color: #166534;
+
+            font-size: 15px;
+
+            margin-bottom: 8px;
+        }
+
+        .prediction {
+            color: #15803d;
+
+            font-size: 30px;
+
+            font-weight: bold;
+        }
+
+
+        /* -----------------------------------------
+           Error message
+        ----------------------------------------- */
+
+        .error {
+            display: none;
+
+            margin-top: 20px;
+
+            padding: 15px;
+
+            background: #fef2f2;
+
+            border: 1px solid #fca5a5;
+
+            color: #b91c1c;
+
+            border-radius: 8px;
+
+            text-align: center;
+        }
+
+
+        /* -----------------------------------------
+           Footer
+        ----------------------------------------- */
+
+        .footer {
+            margin-top: 25px;
+
+            text-align: center;
+
+            color: #94a3b8;
+
+            font-size: 13px;
+        }
+
+
+        /* -----------------------------------------
+           Mobile
+        ----------------------------------------- */
+
+        @media (max-width: 600px) {
+
+            .container {
+                width: 94%;
+
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="container">
+
+        <h1>House Price Predictor</h1>
+
+        <p class="description">
+            Enter the details of a house to predict
+            its estimated price using a
+            Linear Regression model.
+        </p>
+
+
+        <!-- ---------------------------------------
+             Input form
+        ---------------------------------------- -->
+
+        <form id="predictionForm">
+
+
+            <div class="form-group">
+
+                <label for="area">
+                    Area (sq ft)
+                </label>
+
+                <input
+                    type="number"
+                    id="area"
+                    placeholder="Example: 2000"
+                    min="1"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="bedrooms">
+                    Number of Bedrooms
+                </label>
+
+                <input
+                    type="number"
+                    id="bedrooms"
+                    placeholder="Example: 3"
+                    min="1"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="bathrooms">
+                    Number of Bathrooms
+                </label>
+
+                <input
+                    type="number"
+                    id="bathrooms"
+                    placeholder="Example: 3"
+                    min="1"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="age">
+                    House Age (years)
+                </label>
+
+                <input
+                    type="number"
+                    id="age"
+                    placeholder="Example: 5"
+                    min="0"
+                    required
+                >
+
+            </div>
+
+
+            <button
+                type="submit"
+                id="predictButton"
+            >
+                Predict Price
+            </button>
+
+        </form>
+
+
+        <!-- ---------------------------------------
+             Prediction result
+        ---------------------------------------- -->
+
+        <div
+            class="result"
+            id="result"
+        >
+
+            <div class="result-title">
+                Estimated House Price
+            </div>
+
+            <div
+                class="prediction"
+                id="prediction"
+            >
+                ₹0
+            </div>
+
+        </div>
+
+
+        <!-- ---------------------------------------
+             Error
+        ---------------------------------------- -->
+
+        <div
+            class="error"
+            id="error"
+        >
+        </div>
+
+
+        <div class="footer">
+            Powered by Flask + Linear Regression
+        </div>
+
+    </div>
+
+
+    <script>
+
+        // ------------------------------------------
+        // Get HTML elements
+        // ------------------------------------------
+
+        const form =
+            document.getElementById(
+                "predictionForm"
+            );
+
+        const button =
+            document.getElementById(
+                "predictButton"
+            );
+
+        const result =
+            document.getElementById(
+                "result"
+            );
+
+        const prediction =
+            document.getElementById(
+                "prediction"
+            );
+
+        const error =
+            document.getElementById(
+                "error"
+            );
+
+
+        // ------------------------------------------
+        // Form submission
+        // ------------------------------------------
+
+        form.addEventListener(
+            "submit",
+            async function(event) {
+
+                event.preventDefault();
+
+
+                // Hide previous messages
+
+                result.style.display = "none";
+
+                error.style.display = "none";
+
+
+                // Disable button while processing
+
+                button.disabled = true;
+
+                button.textContent =
+                    "Predicting...";
+
+
+                // ----------------------------------
+                // Read input values
+                // ----------------------------------
+
+                const area =
+                    Number(
+                        document.getElementById(
+                            "area"
+                        ).value
+                    );
+
+                const bedrooms =
+                    Number(
+                        document.getElementById(
+                            "bedrooms"
+                        ).value
+                    );
+
+                const bathrooms =
+                    Number(
+                        document.getElementById(
+                            "bathrooms"
+                        ).value
+                    );
+
+                const age =
+                    Number(
+                        document.getElementById(
+                            "age"
+                        ).value
+                    );
+
+
+                try {
+
+                    // --------------------------------
+                    // Send data to Flask API
+                    // --------------------------------
+
+                    const response =
+                        await fetch(
+                            "/predict",
+                            {
+                                method: "POST",
+
+                                headers: {
+                                    "Content-Type":
+                                        "application/json"
+                                },
+
+                                body: JSON.stringify({
+                                    area: area,
+                                    bedrooms: bedrooms,
+                                    bathrooms: bathrooms,
+                                    age: age
+                                })
+                            }
+                        );
+
+
+                    const data =
+                        await response.json();
+
+
+                    // --------------------------------
+                    // Handle response
+                    // --------------------------------
+
+                    if (data.success) {
+
+                        const formattedPrice =
+                            new Intl.NumberFormat(
+                                "en-IN",
+                                {
+                                    style: "currency",
+                                    currency: "INR",
+                                    maximumFractionDigits: 0
+                                }
+                            ).format(
+                                data.prediction
+                            );
+
+
+                        prediction.textContent =
+                            formattedPrice;
+
+
+                        result.style.display =
+                            "block";
+
+                    }
+
+                    else {
+
+                        throw new Error(
+                            data.error ||
+                            "Prediction failed."
+                        );
+
+                    }
+
+                }
+
+                catch (err) {
+
+                    error.textContent =
+                        "Error: " +
+                        err.message;
+
+                    error.style.display =
+                        "block";
+
+                }
+
+                finally {
+
+                    button.disabled =
+                        false;
+
+                    button.textContent =
+                        "Predict Price";
+
+                }
+
+            }
+        );
+
+    </script>
+
+
+</body>
+
+</html>
