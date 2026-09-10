@@ -71,6 +71,15 @@ End-to-end applied case studies:
 - `03_assignment_1_worked_solution.ipynb` - Worked solution for assignment 1
 - `04_insurance_policy_renewal_automl_pycaret.ipynb` - AutoML data preparation case study: human-vs-AutoML data cleaning on a dirty insurance dataset, then a PyCaret classification pipeline to predict policy renewal
 
+### 9️⃣ Model Deployment (`09_Model_Deployment/`)
+Taking a trained model out of the notebook and putting it behind a real interface:
+- `01_training_and_saving_a_regression_model.ipynb` - Trains a Linear Regression house-price model and pickles it to `model.pkl`
+- `app.py` - Flask app that loads `model.pkl`, serves `index.html`, and exposes a `/predict` JSON API
+- `index.html` - Browser form that calls `/predict` and displays the predicted price
+
+Run the notebook first to generate `model.pkl` (not tracked in the repo), then `python app.py` from inside
+`09_Model_Deployment/` and open `http://127.0.0.1:5000/`.
+
 ### 📊 Datasets (`datasets/`)
 All datasets used across the notebooks above, kept in one place for easy reference (CSV, Excel, and text files).
 
@@ -98,6 +107,7 @@ Supplementary course materials:
 - numpy
 - scikit-learn (for some advanced examples)
 - pycaret (optional, only for the AutoML case study in `08_Case_Studies/04_insurance_policy_renewal_automl_pycaret.ipynb`)
+- flask (optional, only for `09_Model_Deployment/`)
 
 ## Course Topics Covered
 
@@ -112,6 +122,7 @@ Supplementary course materials:
 - Statistics and Linear Regression
 - Model Preparation and Train/Validation/Test Splitting
 - Applied Case Studies
+- Model Deployment with Flask (REST API + browser frontend)
 
 ## Notes
 

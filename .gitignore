@@ -12,3 +12,6 @@ temp.txt
 
 # PyCaret experiment logs
 logs.log
+
+# Generated model artifacts (reproduced by running the training notebook)
+09_Model_Deployment/model.pkl
